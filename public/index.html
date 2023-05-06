@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript"  src="scripts\scripts.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Time pass</h1>
+        <hr>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <hr>
+        <h2>Login</h2>
+        <form name="login" action="/validateUser.js">
+            <p>Enter your email : <input type="text" id="email" onblur="checkEmail(this)"></p>
+            <p>Enter your password : <input type="password" id="password" onblur="checkPassword(this)"></p>
+            <input type="submit">
+        </form>
+        </div>
+</body>
+</html>
